@@ -1,0 +1,70 @@
+/* General page style */
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2f3e46;
+}
+
+/* Navbar customizations */
+.navbar {
+  background-color:  #6f42c1 !important ;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color:white;
+}
+
+.nav-link {
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #1161e3 ;
+}
+
+/* Container styling */
+.container {
+  background-color: #d6eaf8;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Form headings */
+h2 {
+  color: #2f3e46;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 8px;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 10px;
+  padding: 12px 16px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+  border-color: #4e91fc;
+  box-shadow: 0 0 0 0.2rem rgba(78, 145, 252, 0.25);
+}
+
+

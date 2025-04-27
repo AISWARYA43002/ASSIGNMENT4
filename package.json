@@ -1,0 +1,19 @@
+{
+  "name": "assignment-4",
+  "version": "1.0.0",
+  "description": "MY ASSIGNMENT 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AISH",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "env": "^0.0.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0",
+    "morgan": "^1.10.0"
+  }
+}
